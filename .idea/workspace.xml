@@ -6,11 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="236fbe1e-bcea-4373-a45e-ebbd01cf1436" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-1/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/eslint.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-1/src/app/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/src/app/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/src/app/views/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/src/app/views/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-1/src/app/views/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/src/app/views/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/src/features/Home/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/src/features/Home/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/src/features/Home/styles/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/src/features/Home/styles/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/src/features/Home/views/Header.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/src/features/Home/views/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/src/features/Home/views/HomePage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -71,7 +73,7 @@
       <recent name="C:\Users\teodo\WebstormProjects\React-project-1\project-1\src\app\views" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.lint">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/project-1/package.json" />
       <command value="run" />
@@ -121,7 +123,7 @@
       <workItem from="1767289777301" duration="1200000" />
       <workItem from="1767373275869" duration="2429000" />
       <workItem from="1767418467772" duration="1671000" />
-      <workItem from="1767420179149" duration="133000" />
+      <workItem from="1767420179149" duration="4972000" />
     </task>
     <servers />
   </component>

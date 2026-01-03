@@ -1,1 +1,1 @@
-export { HomePage } from '../Home/views/HomePage.tsx';
+export { HomePage } from '../Home/views/HomePage.tsx'
