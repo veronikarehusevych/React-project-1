@@ -1,10 +1,9 @@
-import {Header} from "./Header.tsx";
-
+import Navbar from './Navbar.tsx'
 
 export const HomePage = () => {
-    return (
-        <div className={'HomePage'}>
-            <Header/>
-        </div>
-    )
+  return (
+    <div className={'homepage'}>
+      <Navbar />
+    </div>
+  )
 }
