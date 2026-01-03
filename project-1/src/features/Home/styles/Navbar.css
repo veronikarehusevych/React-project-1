@@ -3,7 +3,8 @@
     flex-direction: row;
     align-items: center;
     color: #1A1615;
-    font-weight: bolder;
+    font-family: OpenRunde;
+    font-weight: 700;
     img {
         margin-right: 3px;
     }
@@ -20,6 +21,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    font-family: OpenRunde;
 }
 
 .nav-links {
