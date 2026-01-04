@@ -1,0 +1,30 @@
+.subheader-wrapper {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+}
+.title{
+    font-family: OpenRunde;
+    font-size: 70px;
+    color: #1A1615;
+    text-align: center;
+}
+
+.subtitle-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+}
+.subtitle{
+    font-family: OpenRunde;
+    font-size: 20px;
+    color: #1A1615;
+    text-align: center;
+}
