@@ -13,24 +13,39 @@ const Navbar = () => {
       <div className="navbar-center">
         <ul className="nav-links">
           <li>
-            <a href="/products">Features</a>
+            <a href="/products" className={'nav-link'}>
+              Features
+            </a>
           </li>
           <li>
-            <a href="/about">Benefits</a>
+            <a href="/about" className={'nav-link'}>
+              Benefits
+            </a>
           </li>
           <li>
-            <a href="/contact">Pricing</a>
+            <a href="/contact" className={'nav-link'}>
+              Pricing
+            </a>
           </li>
           <li>
-            <a href="/about">Blog</a>
+            <a href="/about" className={'nav-link'}>
+              Blog
+            </a>
           </li>
           <li>
-            <a href="/contact">Contact us</a>
+            <a href="/contact" className={'nav-link'}>
+              Contact us
+            </a>
           </li>
         </ul>
       </div>
       <div className="navbar-right">
-        <button>Try Dreelio free</button>
+        <button className={'navbar-button'}>
+          <span className="btn-swap__label">
+            <span className="btn-swap__text btn-swap__text--top">Try Dreelio free</span>
+            <span className="btn-swap__text btn-swap__text--bottom">Try Dreelio free</span>
+          </span>
+        </button>
       </div>
     </nav>
   )
