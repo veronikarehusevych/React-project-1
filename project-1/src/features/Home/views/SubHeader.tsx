@@ -1,4 +1,5 @@
 import '../styles/SubHeader.css'
+import { SlideTextButton } from '../../../shared/components/SlideTextButton/SlideTextButton.tsx'
 
 const SubHeader = () => {
   return (
@@ -11,6 +12,10 @@ const SubHeader = () => {
           All-in-one platform for managing clients, projects, and payments without the chaos. From
           first contract to final invoice, we’ve got your back.
         </span>
+      </div>
+      <div className="subtitle-buttons">
+        <SlideTextButton text={'Try Dreelio free'} theme={'dark'} />
+        <SlideTextButton text={'See features'} theme={'light'} />
       </div>
     </div>
   )

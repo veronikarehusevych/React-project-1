@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="236fbe1e-bcea-4373-a45e-ebbd01cf1436" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-1/src/features/Home/views/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/src/features/Home/views/HomePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/src/features/Home/styles/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/src/features/Home/styles/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/src/features/Home/styles/SubHeader.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/src/features/Home/styles/SubHeader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/src/features/Home/views/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/src/features/Home/views/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/src/features/Home/views/SubHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/src/features/Home/views/SubHeader.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "add-styles-to-header",
+    "git-widget-placeholder": "reusable-button-animated",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
@@ -120,6 +123,7 @@
       <workItem from="1767418467772" duration="1671000" />
       <workItem from="1767420179149" duration="6504000" />
       <workItem from="1767527626241" duration="4189000" />
+      <workItem from="1767597827854" duration="1711000" />
     </task>
     <servers />
   </component>

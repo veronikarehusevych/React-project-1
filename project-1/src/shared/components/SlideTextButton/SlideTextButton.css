@@ -1,0 +1,59 @@
+.slide-text-button {
+    border: 0;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+}
+
+
+.light {
+    background-color: rgba(213, 213, 213, 0.38);
+    color: #1a1a1a;
+}
+
+.dark {
+    background-color: #1a1a1a;
+}
+
+.btn-swap__label {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+
+    /* Critical: define a stable height for the clip area */
+    line-height: 1.2;
+    height: 1.2em;
+}
+
+/* Both texts sit in the same viewport */
+.btn-swap__text {
+    display: block;
+    transition: transform 0.3s ease;
+    will-change: transform;
+}
+
+/* Start positions */
+.btn-swap__text--top {
+    transform: translateY(0%);
+}
+
+.btn-swap__text--bottom {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateY(100%); /* hidden below */
+}
+
+/* Hover: top goes up, bottom slides in */
+.slide-text-button:hover .btn-swap__text--top,
+.slide-text-button:focus-visible .btn-swap__text--top {
+    transform: translateY(-100%);
+}
+
+.slide-text-button:hover .btn-swap__text--bottom,
+.slide-text-button:focus-visible .btn-swap__text--bottom {
+    transform: translateY(0%);
+}
