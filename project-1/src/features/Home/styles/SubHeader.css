@@ -28,3 +28,11 @@
     color: #1A1615;
     text-align: center;
 }
+
+.subtitle-buttons {
+    display: flex;
+    margin-top: 30px;
+    button:first-child {
+        margin-right: 5px;
+    }
+}

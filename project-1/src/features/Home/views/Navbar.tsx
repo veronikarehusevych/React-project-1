@@ -1,5 +1,6 @@
 import '../styles/Navbar.css'
 import logo from '../../../assets/logo.svg'
+import { SlideTextButton } from '../../../shared/components/SlideTextButton/SlideTextButton.tsx'
 
 const Navbar = () => {
   return (
@@ -40,12 +41,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-right">
-        <button className={'navbar-button'}>
-          <span className="btn-swap__label">
-            <span className="btn-swap__text btn-swap__text--top">Try Dreelio free</span>
-            <span className="btn-swap__text btn-swap__text--bottom">Try Dreelio free</span>
-          </span>
-        </button>
+        <SlideTextButton text={'Try Dreelio free'} />
       </div>
     </nav>
   )
