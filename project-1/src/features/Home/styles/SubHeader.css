@@ -9,6 +9,9 @@
     display: flex;
     justify-content: center;
     width: 800px;
+    font-family: OpenRunde;
+    font-size: 70px;
+    color: #1A1615;
 }
 .title{
     font-family: OpenRunde;
@@ -21,11 +24,11 @@
     display: flex;
     justify-content: center;
     width: 700px;
-}
-.subtitle{
     font-family: OpenRunde;
     font-size: 20px;
     color: #1A1615;
+}
+.subtitle{
     text-align: center;
 }
 
