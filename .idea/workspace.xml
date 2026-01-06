@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="236fbe1e-bcea-4373-a45e-ebbd01cf1436" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-1/src/features/Home/styles/SubHeader.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/src/features/Home/styles/SubHeader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-1/src/features/Home/views/SubHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/src/features/Home/views/SubHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/src/app/views/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/src/app/views/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/src/features/Home/styles/HomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/src/features/Home/styles/HomePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/src/features/Home/styles/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/src/features/Home/styles/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1/src/features/Home/views/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/project-1/src/features/Home/views/HomePage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,34 +36,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;reusable-button-animated&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;npm.lint.executor&quot;: &quot;Run&quot;,
-    &quot;npm.run.executor&quot;: &quot;Run&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\teodo\\WebstormProjects\\React-project-1\\project-1\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\teodo\\WebstormProjects\\React-project-1\\project-1\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "animated-text",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "npm.lint.executor": "Run",
+    "npm.run.executor": "Run",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\teodo\\WebstormProjects\\React-project-1\\project-1\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\teodo\\WebstormProjects\\React-project-1\\project-1\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\teodo\WebstormProjects\React-project-1\project-1\src\shared\styles" />
@@ -122,7 +124,7 @@
       <workItem from="1767420179149" duration="6504000" />
       <workItem from="1767527626241" duration="4189000" />
       <workItem from="1767597827854" duration="1711000" />
-      <workItem from="1767706766605" duration="1224000" />
+      <workItem from="1767706766605" duration="2370000" />
     </task>
     <servers />
   </component>
